@@ -15,6 +15,19 @@
       href="{{ asset('free-lite/assets/images/favicon.png') }}"
       type="image/png"
     />
+    <meta name="description"
+    content="Website cung cấp thông tin về hạt giống hoa đậu lupin" />
+    {{-- Facebook share --}}
+    <meta property="og:url" content="#"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Điểm bán hạt giống chất lượng - uy tín"/>
+    <meta property="og:description" content="Website cung cấp thông tin về hạt giống hoa đậu lupin"/>
+    <meta property="og:image" content="#"/>
+    {{-- Twitter share --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Điểm bán hạt giống chất lượng - uy tín">
+    <meta name="twitter:description" content="Website cung cấp thông tin về hạt giống hoa đậu lupin">
+    <meta name="twitter:image" content="#">
 
     <!--====== CSS Files LinkUp ======-->
     <link rel="stylesheet" href="{{ asset('free-lite/assets/css/animate.css') }}" />
