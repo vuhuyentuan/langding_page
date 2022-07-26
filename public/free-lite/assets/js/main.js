@@ -17,12 +17,13 @@
     const sticky = header_navbar.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
     let url = window.location.origin
+    console.log(url);
     if (window.pageYOffset > sticky) {
       header_navbar.classList.add("sticky");
-      logo.src = url+"/assets/images/logo/logo-2.svg";
+      logo.src = url+"/free-lite/assets/images/logo/logo-2.svg";
     } else {
       header_navbar.classList.remove("sticky");
-      logo.src = url+"/assets/images/logo/logo.svg";
+      logo.src = url+"/free-lite/assets/images/logo/logo.svg";
     }
 
     // show or hide the back-top-top button
